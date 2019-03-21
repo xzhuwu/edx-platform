@@ -1,3 +1,6 @@
+"""Common environment variables unique to the grades plugin."""
+
+
 def plugin_settings(settings):
     # Queue to use for updating persistent grades
     settings.RECALCULATE_GRADES_ROUTING_KEY = settings.ENV_TOKENS.get(
