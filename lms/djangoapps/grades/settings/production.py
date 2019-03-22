@@ -2,6 +2,10 @@
 
 
 def plugin_settings(settings):
+	"""
+	Common settings for Grades
+	"""
+
     # Queue to use for updating persistent grades
     settings.RECALCULATE_GRADES_ROUTING_KEY = settings.ENV_TOKENS.get(
         'RECALCULATE_GRADES_ROUTING_KEY', settings.DEFAULT_PRIORITY_QUEUE,
