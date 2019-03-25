@@ -72,7 +72,7 @@ click-log==0.1.8
 click==7.0
 code-annotations==0.3.1
 colorama==0.4.1
-configparser==3.7.3
+configparser==3.7.4
 constantly==15.1.0
 coreapi==2.3.3
 coreschema==0.0.4
@@ -189,7 +189,7 @@ incremental==17.5.0
 inflect==2.1.0
 ipaddress==1.0.22
 isodate==0.6.0
-isort==4.3.15
+isort==4.3.16
 itsdangerous==1.1.0
 itypes==1.1.0
 jinja2-pluralize==0.3.0
