@@ -86,7 +86,7 @@ def _create_jwt(
         user (User): User for which to generate the JWT.
         scopes (list): Optional. Scopes that limit access to the token bearer and
             controls which optional claims are included in the token.
-            Defaults to ['email', 'profile'].
+            Defaults to ['user_id', 'email', 'profile'].
         expires_in (int): Optional. Overrides time to token expiry, specified in seconds.
         filters (list): Optional. Filters to include in the JWT.
         is_restricted (Boolean): Whether the client to whom the JWT is issued is restricted.
@@ -100,7 +100,7 @@ def _create_jwt(
         secret (string): Overrides configured JWT secret (signing) key.
     """
     use_asymmetric_key = _get_use_asymmetric_key_value(is_restricted, use_asymmetric_key)
-    scopes = scopes or ['email', 'profile']
+    scopes = scopes or ['user_id', 'email', 'profile']
     iat, exp = _compute_time_fields(expires_in)
 
     payload = {

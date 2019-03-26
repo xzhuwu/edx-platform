@@ -26,7 +26,7 @@ def create_dot_access_token(request, user, client, expires_in=None, scopes=None)
             u'refresh_token': u'another string',
             u'token_type': u'Bearer',
             u'expires_in': 36000,
-            u'scope': u'profile email',
+            u'scope': u'user_id profile email',
         },
     """
     expires_in = _get_expires_in_value(expires_in)

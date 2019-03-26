@@ -480,6 +480,7 @@ OAUTH_EXPIRE_PUBLIC_CLIENT_DAYS = 30
 OAUTH2_DEFAULT_SCOPES = {
     'read': _('Read access'),
     'write': _('Write access'),
+    'user_id': _('Know your user_id'),
     'email': _('Know your email address'),
     'profile': _('Know your name and username'),
 }

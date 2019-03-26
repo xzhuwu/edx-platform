@@ -53,6 +53,7 @@ class ProfileHandler(object):
 
     def scope_profile(self, _data):
         """ Add specialized claims. """
+        # TODO: Determine if Ecommerce ever uses this.
         return ['name', 'locale', 'user_tracking_id']
 
     def claim_name(self, data):
