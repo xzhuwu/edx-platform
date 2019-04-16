@@ -5153,7 +5153,7 @@ msgstr "我们无法签您进去。"
 #: lms/static/js/student_account/views/LoginView.js
 #, javascript-format
 msgid "An error occurred when signing you in to %s."
-msgstr "将您登录到％s时发生错误。"
+msgstr "将您登录到%s时发生错误。"
 
 #: lms/templates/verify_student/intro_step.underscore
 #: test_root/staticfiles/templates/verify_student/intro_step.underscore
