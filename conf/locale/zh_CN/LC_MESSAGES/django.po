@@ -5102,7 +5102,7 @@ msgstr "在平台上的免费在线课程"
 msgid ""
 "© {org_name}.  All rights reserved except where noted.  EdX, Open edX and "
 "their respective logos are trademarks or registered trademarks of edX Inc."
-msgstr "保留所有权利"
+msgstr "© {org_name}. 保留所有权利"
 
 #. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: 'Open edX' is a brand, please keep this untranslated.
@@ -5877,7 +5877,7 @@ msgstr "课程从{course_start_date}上的{time_remaining_string}开始。"
 #: lms/djangoapps/courseware/date_summary.py
 #, python-brace-format
 msgid "Course starts in {time_remaining_string} at {course_start_time}。"
-msgstr "课程从{course_maart_time}的{time_remaining_string}开始。"
+msgstr "课程从{course_start_time}的{time_remaining_string}开始。"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Course End"
@@ -24283,7 +24283,7 @@ msgstr "你的通知设置没有变更，因此无需保存。"
 #: wiki/plugins/notifications/models.py
 #, python-format
 msgid "%(user)s subscribing to %(article)s (%(type)s)"
-msgstr "%(user)s 订阅 %(articles) (%(type)s)"
+msgstr "%(user)s 订阅 %(article)s (%(type)s)"
 
 #: wiki/plugins/notifications/models.py
 #, python-format
