@@ -221,6 +221,7 @@
 # 刘啸林 <liuxiaolinfk@gmail.com>, 2016
 # 百杰 陈 <bj.chen@eliteu.com.cn>, 2018
 # 竹轩 <fmyzjs@gmail.com>, 2014
+# xzhuwu <xzhuwu@qq.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
@@ -431,7 +432,7 @@ msgstr "您所作的变更已保存。"
 #: cms/static/js/views/xblock_validation.js
 #: common/static/common/js/discussion/views/discussion_inline_view.js
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #. Translators: This message will be added to the front of messages of type
 #. error,
@@ -504,28 +505,28 @@ msgstr "回复批注"
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{num_points} point possible (graded, results hidden)"
 msgid_plural "{num_points} points possible (graded, results hidden)"
-msgstr[0] ""
+msgstr[0] "可能获得{num_points}分（评分，结果已隐藏）"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{num_points} point possible (ungraded, results hidden)"
 msgid_plural "{num_points} points possible (ungraded, results hidden)"
-msgstr[0] ""
+msgstr[0] "可能获得{num_points}分（未评分，结果已隐藏）"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{num_points} point possible (graded)"
 msgid_plural "{num_points} points possible (graded)"
-msgstr[0] ""
+msgstr[0] "可能获得{num_points}分（已评分）"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{num_points} point possible (ungraded)"
 msgid_plural "{num_points} points possible (ungraded)"
-msgstr[0] ""
+msgstr[0] "可能获得{num_points}分（未评分）"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -534,7 +535,7 @@ msgstr[0] ""
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
-msgstr[0] ""
+msgstr[0] "{earned}/{possible}分（已评分）"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -543,7 +544,7 @@ msgstr[0] ""
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
-msgstr[0] ""
+msgstr[0] "{earned}/{possible}分（未评分）"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "The grading process is still running. Refresh the page to see updates."
@@ -2513,7 +2514,7 @@ msgstr "课程名称"
 msgid ""
 "For inquiries regarding assignments, grades, or structure of a specific "
 "course, please post in the discussion forums for that course directly."
-msgstr ""
+msgstr "有关特定课程的作业，成绩或结构的查询，请直接在该课程的讨论论坛中发布。"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Not specific to a course"
@@ -2530,51 +2531,51 @@ msgstr "账号设置"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Billing/Payment Options"
-msgstr ""
+msgstr "帐单/付款方式"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Certificates"
-msgstr ""
+msgstr "证书"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Course Content"
-msgstr ""
+msgstr "课程内容"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Deadlines"
-msgstr ""
+msgstr "截止期限"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Errors/Technical Issues"
-msgstr ""
+msgstr "错误/技术问题"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Financial Aid"
-msgstr ""
+msgstr "经济资助"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Masters"
-msgstr ""
+msgstr "硕士"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "MicroMasters"
-msgstr ""
+msgstr "微硕士"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "MicroBachelors"
-msgstr ""
+msgstr "微学士"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Photo Verification"
-msgstr ""
+msgstr "照片验证"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Proctoring"
-msgstr ""
+msgstr "采购"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
 #: cms/templates/js/asset-library.underscore
 msgid "Other"
@@ -2594,7 +2595,7 @@ msgstr "您提供的信息越详细，我们越能快速并有效地帮助到您
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Create Support Ticket"
-msgstr ""
+msgstr "创建支持票"
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx
 msgid "Sign in to {platform} so we can help you better."
@@ -2625,11 +2626,11 @@ msgid ""
 "currently experiencing an unusually high volume of support requests. We "
 "appreciate your patience as we work to review each request. Please check the"
 " "
-msgstr ""
+msgstr "由于最近对在线教育和MOOC的兴趣增加，我们目前正在遇到大量的支持请求。感谢您在我们审核每个请求时的耐心配合。 请检查 "
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid " as many questions may have already been answered."
-msgstr ""
+msgstr " 已尽可能已经回答了许多问题。"
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 #: lms/djangoapps/support/static/support/jsx/success.jsx
@@ -2656,7 +2657,7 @@ msgstr "前往{platform}主页"
 msgid ""
 "Thank you for submitting a request! We appreciate your patience while we "
 "work to review your request."
-msgstr ""
+msgstr "感谢您提交请求！感谢您在我们审核您的请求期间的耐心配合。"
 
 #: lms/djangoapps/support/static/support/jsx/upload_progress.jsx
 msgid "Cancel upload"
@@ -2799,7 +2800,7 @@ msgstr "删除此团队?"
 msgid ""
 "Deleting a team is permanent and cannot be undone.All members are removed "
 "from the team, and team discussions can no longer be accessed."
-msgstr ""
+msgstr "删除团队是永久性的，无法撤消。所有成员都将从团队中删除，并且不再可以访问团队讨论。"
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js
 msgid "Team \"{team}\" successfully deleted."
@@ -2808,7 +2809,7 @@ msgstr "团队 \"{team}\" 已成功删除。"
 #: lms/djangoapps/teams/static/teams/js/views/manage.js
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Manage"
-msgstr ""
+msgstr "管理"
 
 #: lms/djangoapps/teams/static/teams/js/views/my_teams.js
 msgid "You are not currently a member of any team."
@@ -2824,11 +2825,11 @@ msgstr "其他"
 #. * relative timestamp (see: http://momentjs.com/)
 #: lms/djangoapps/teams/static/teams/js/views/team_card.js
 msgid "Last activity {date}"
-msgstr ""
+msgstr "上次活动 {date}"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_card.js
 msgid "View {span_start} {team_name} {span_end}"
-msgstr ""
+msgstr "查看{span_start} {team_name} {span_end}"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
@@ -2843,7 +2844,7 @@ msgstr "离开这个团队？"
 msgid ""
 "If you leave, you can no longer post in this team's discussions.Your place "
 "will be available to another learner."
-msgstr ""
+msgstr "如果您离开，则无法再发布此小组的讨论。其他学习者可以使用您的位置。"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 #: lms/static/js/verify_student/views/reverify_view.js
@@ -2853,7 +2854,7 @@ msgstr "确认"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "You already belong to another team in this team set."
-msgstr ""
+msgstr "您已经属于此团队集合中的另一个团队。"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "This team is full."
@@ -2861,12 +2862,12 @@ msgstr "这个团队已经满了。"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "Cannot join instructor managed team"
-msgstr ""
+msgstr "无法加入讲师管理的团队"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_utils.js
 msgid " Member"
 msgid_plural " Members"
-msgstr[0] ""
+msgstr[0] " 成员"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams.js
 msgid "All teams"
@@ -2882,7 +2883,7 @@ msgstr "主题"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "My Teams"
-msgstr ""
+msgstr "我的团队"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
@@ -2948,17 +2949,17 @@ msgid ""
 "See all teams you belong to and all public teams in your course, organized "
 "by topic. Join an open public team to collaborate with other learners who "
 "are interested in the same topic as you are."
-msgstr ""
+msgstr "查看您所属的所有团队以及课程中按主题组织的所有公共团队。加入一个开放的公共团队，与与您对同一主题感兴趣的其他学习者合作。"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
 "See all teams you belong to and all public teams in your course, organized "
 "by topic."
-msgstr ""
+msgstr "查看您所属的所有团队以及课程中按主题组织的所有公共团队。"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "See all teams you belong to."
-msgstr ""
+msgstr "查看您所属的所有团队。"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 #: lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore
@@ -2980,11 +2981,11 @@ msgstr "无法找到\"{team}\"团队。"
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js
 msgid "{team_count} Team"
 msgid_plural "{team_count} Teams"
-msgstr[0] ""
+msgstr[0] "{team_count}个团队"
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js
 msgid "View Teams in the {topic_name} Topic"
-msgstr ""
+msgstr "查看{topic_name}主题中的团队"
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_teams.js
 msgid ""
@@ -3679,8 +3680,7 @@ msgid ""
 "'{verifiedCohortName}'. To change the configuration for verified track "
 "cohorts, contact your edX partner manager."
 msgstr ""
-"这门课程为要获取认证证书的学生自动分组。您无法取消分组，也无法重新命名手动设置的群组'{verifiedCohortName}'。如要改变认证组的分组设置，请联系您的edX"
-" 合作经理。"
+"这门课程为要获取认证证书的学生自动分组。您无法取消分组，也无法重新命名手动设置的群组'{verifiedCohortName}'。如要改变认证组的分组设置，请联系您的管理员。"
 
 #: lms/static/js/groups/views/verified_track_settings_notification.js
 msgid ""
@@ -4530,7 +4530,7 @@ msgid ""
 "these for your records before proceeding with deletion, follow the "
 "instructions for {htmlStart}printing or downloading a certificate{htmlEnd}."
 msgstr ""
-"您可能也将无法访问已认证的证书和其他专业课程的证书，比如MicroMasters证书。如果您希望在操作删除前对这些文件进行备份，请根据指引{htmlStart}打印或下载证书{htmlEnd}。"
+"您可能也将无法访问已认证的证书和其他专业课程的证书，比如微硕士证书。如果您希望在操作删除前对这些文件进行备份，请根据指引{htmlStart}打印或下载证书{htmlEnd}。"
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid ""
@@ -4553,27 +4553,27 @@ msgid ""
 "the above carefully before proceeding. This is an irreversible action, and "
 "{strongStart}you will no longer be able to use the same email on "
 "{platformName}.{strongEnd}"
-msgstr ""
+msgstr "{strongStart}警告：帐户删除是永久性的。{strongEnd}在继续操作之前，请仔细阅读以上内容。这是不可撤消的操作，{strongStart}您将无法再在{platformName}上使用同一封电子邮件。{strongEnd}"
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid ""
 "Please note: Deletion of your account and personal data is permanent and "
 "cannot be undone. {platformName} will not be able to recover your account or"
 " the data that is deleted."
-msgstr ""
+msgstr "请注意：删除您的帐户和个人数据是永久性的，无法撤消。{platformName}将无法恢复您的帐户或已删除的数据。"
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid ""
 "Once your account is deleted, you cannot use it to take courses on the "
 "{platformName} app, {siteName}, or any other site hosted by {platformName}."
-msgstr ""
+msgstr "删除帐户后，您将无法在{platformName}使用该帐户，也无法{siteName}或{platformName}托管的任何其他网站上参加课程。"
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid ""
 "This includes access to {siteName} from your employer’s or university’s "
 "system{additionalSiteSpecificDeletionText}."
-msgstr ""
+msgstr "这包括从您所属组织的系统访问{siteName}{additionalSiteSpecificDeletionText}。"
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid "We’re sorry to see you go!"
@@ -4611,14 +4611,14 @@ msgid ""
 "You have selected “Delete my account.” Deletion of your account and personal"
 " data is permanent and cannot be undone. {platformName} will not be able to "
 "recover your account or the data that is deleted."
-msgstr ""
+msgstr "您已选择“删除我的帐户”。帐户和个人数据的删除是永久性的，无法撤消。{platformName}将无法恢复您的帐户或已删除的数据。"
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid ""
 "If you proceed, you will be unable to use this account to take courses on "
 "the {platformName} app, {siteName}, or any other site hosted by "
 "{platformName}."
-msgstr ""
+msgstr "如果继续，您将无法在{platformName}使用该帐户，也无法{siteName}或{platformName}托管的任何其他网站上参加课程。"
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid ""
@@ -4697,6 +4697,10 @@ msgid ""
 "or check your spam folder.{paragraphEnd}{paragraphStart}If you need further "
 "assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
 msgstr ""
+"{paragraphStart}您输入了{boldStart}{email}{boldEnd}。如果此电子邮件地址与您的{platform_name}帐户相关联，"
+"我们将向该电子邮件地址发送一条消息，其中包含密码恢复说明。{paragraphEnd}{paragraphStart}"
+"如果您在一分钟后未收到密码重置消息，请确认您输入了正确的电子邮件地址，或检查您的垃圾邮件文件夹。"
+"{paragraphEnd}{paragraphStart}如果您需要进一步的帮助，请{anchorStart}联系技术支持{anchorEnd}。{paragraphEnd}"
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid ""
@@ -4706,7 +4710,7 @@ msgstr "发生错误。请尝试刷新页面，或检查您的网络连接情况
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid "An unexpected error has occurred."
-msgstr ""
+msgstr "发生意外的错误。"
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid ""
@@ -6161,7 +6165,7 @@ msgstr "分段"
 
 #: cms/static/js/views/move_xblock_list.js
 msgid "Units"
-msgstr "单位"
+msgstr "单元"
 
 #: cms/static/js/views/move_xblock_list.js
 msgid "Components"
@@ -6190,7 +6194,7 @@ msgstr "添加日期"
 #. edited.
 #: cms/static/js/views/pages/container.js
 msgid "Editing access for: {title}"
-msgstr ""
+msgstr "正在修改以下内容的访问权限：{title}"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Publishing"
@@ -6376,7 +6380,7 @@ msgstr "上传您的视频缩略图。"
 
 #: cms/static/js/views/show_textbook.js
 msgid "Delete “<%- name %>”?"
-msgstr ""
+msgstr "删除“<％-name％>”？"
 
 #: cms/static/js/views/show_textbook.js
 msgid ""
@@ -6560,7 +6564,7 @@ msgstr "移除字幕"
 
 #: cms/static/js/views/video/translations_editor.js
 msgid "Upload translation"
-msgstr "上传译文"
+msgstr "上传字幕"
 
 #: cms/static/js/views/video_thumbnail.js
 msgid "Add Thumbnail"
@@ -6815,15 +6819,15 @@ msgstr "搜索"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Response"
-msgstr ""
+msgstr "添加回复"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "This thread is closed."
-msgstr ""
+msgstr "此主题已关闭。"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a response:"
-msgstr ""
+msgstr "添加回复："
 
 #: common/static/common/templates/discussion/templates.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -6838,125 +6842,125 @@ msgstr ""
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "question posted %(time_ago)s by %(author)s"
-msgstr ""
+msgstr "讨论由%(author)s在%(time_ago)s发表"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Pinned"
-msgstr ""
+msgstr "固定"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Reported"
-msgstr ""
+msgstr "已报告"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Closed"
-msgstr ""
+msgstr "已关闭"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "Related to: %(courseware_title_linked)s"
-msgstr ""
+msgstr "相关于：%(courseware_title_linked)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "This post is visible only to %(group_name)s."
-msgstr ""
+msgstr "此帖子仅对%(group_name)s可见。"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "This post is visible to everyone."
-msgstr ""
+msgstr "所有人都可以看到此帖子。"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing post"
-msgstr ""
+msgstr "编辑帖子"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Add a clear and descriptive title to encourage participation. (Required)"
-msgstr ""
+msgstr "添加清晰的、描述性的标题以鼓励参与。（必需）"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Edit your post below."
-msgstr ""
+msgstr "在下面编辑您的帖子。"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Update post"
-msgstr ""
+msgstr "更新帖子"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "Show Comment (%(num_comments)s)"
 msgid_plural "Show Comments (%(num_comments)s)"
-msgstr[0] ""
+msgstr[0] "显示评论(%(num_comments)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a comment"
-msgstr ""
+msgstr "添加评论"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "marked as answer %(time_ago)s by %(user)s"
-msgstr ""
+msgstr "被%(user)s于%(time_ago)s标记为答案"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "marked as answer %(time_ago)s"
-msgstr ""
+msgstr "于%(time_ago)s标记为答案"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s by %(user)s"
-msgstr ""
+msgstr "被%(user)s于%(time_ago)s采纳"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s"
-msgstr ""
+msgstr "于%(time_ago)s被采纳"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing response"
-msgstr ""
+msgstr "编辑回复"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Update response"
-msgstr ""
+msgstr "更新回复"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "posted %(time_ago)s by %(author)s"
-msgstr ""
+msgstr "由%(author)s于%(time_ago)s发表"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing comment"
-msgstr ""
+msgstr "编辑评论"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Update comment"
-msgstr ""
+msgstr "更新评论"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "discussion"
-msgstr ""
+msgstr "讨论区"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "answered question"
-msgstr ""
+msgstr "已回答的问题"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "unanswered question"
-msgstr ""
+msgstr "未回答的问题"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Following"
-msgstr ""
+msgstr "关注"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Community TA"
-msgstr ""
+msgstr "社区助教"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "{unread_comments_count} new"
-msgstr ""
+msgstr "{unread_comments_count}个未读评论"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
@@ -6972,62 +6976,62 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Post"
-msgstr ""
+msgstr "添加帖子"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Visible to"
-msgstr ""
+msgstr "可见于"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Discussion admins, moderators, and TAs can make their posts visible to all "
 "students or specify a single group."
-msgstr ""
+msgstr "讨论管理员、版主和助教可以使他们的帖子对所有学生可见，或者指定一个小组。"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "All Groups"
-msgstr ""
+msgstr "所有组"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "follow this post"
-msgstr ""
+msgstr "关注这篇帖子"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously"
-msgstr ""
+msgstr "匿名发布"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously to classmates"
-msgstr ""
+msgstr "匿名发帖给同学"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Error posting your message."
-msgstr ""
+msgstr "发布消息时出错。"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "This post will be visible only to %(group_name)s."
-msgstr ""
+msgstr "此帖子仅对%(group_name)s可见。"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "This post will be visible to everyone."
-msgstr ""
+msgstr "所有人都可以看到该帖子。"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Topic area"
-msgstr ""
+msgstr "主题区"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add your post to a relevant topic to help others find it. (Required)"
-msgstr ""
+msgstr "将您的帖子添加到相关主题，以帮助其他人找到它。（必需）"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "(Community TA)"
-msgstr ""
+msgstr "（社区助教）"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "(Staff)"
-msgstr ""
+msgstr "（工作人员）"
 
 #: common/static/common/templates/discussion/templates.underscore
 #: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore
@@ -7036,85 +7040,85 @@ msgstr "所有讨论帖"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Return to all posts"
-msgstr ""
+msgstr "返回所有帖子"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "View discussion"
-msgstr ""
+msgstr "查看讨论"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Load more"
-msgstr ""
+msgstr "加载更多"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Post type"
-msgstr ""
+msgstr "帖子类型"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Questions raise issues that need answers. Discussions share ideas and start "
 "conversations. (Required)"
-msgstr ""
+msgstr "问题提出了需要答案的问题。讨论分享想法并开始对话。（必需）"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Question"
-msgstr ""
+msgstr "问题"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Discussion"
-msgstr ""
+msgstr "讨论"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Endorse"
-msgstr ""
+msgstr "赞同"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unendorse"
-msgstr ""
+msgstr "反对"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Mark as Answer"
-msgstr ""
+msgstr "标记为答案"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unmark as Answer"
-msgstr ""
+msgstr "取消标记为答案"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Follow"
-msgstr ""
+msgstr "关注"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unfollow"
-msgstr ""
+msgstr "取消关注"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Vote for this post,"
-msgstr ""
+msgstr "为这个帖子投票，"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Report abuse"
-msgstr ""
+msgstr "举报滥用"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Report"
-msgstr ""
+msgstr "举报"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unreport"
-msgstr ""
+msgstr "取消举报"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Pin"
-msgstr ""
+msgstr "固定"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unpin"
-msgstr ""
+msgstr "取消固定"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Open"
-msgstr ""
+msgstr "开放"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Discussion Home"
@@ -7379,23 +7383,23 @@ msgstr "编辑团队成员信息"
 
 #: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "View Current Team Memberships"
-msgstr ""
+msgstr "查看当前团队成员"
 
 #: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "Download Memberships"
-msgstr ""
+msgstr "下载成员"
 
 #: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "Assign Team Memberships"
-msgstr ""
+msgstr "分配团队成员"
 
 #: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "Upload Memberships"
-msgstr ""
+msgstr "上传成员"
 
 #: lms/djangoapps/teams/static/teams/templates/manage.underscore
 msgid "Error assigning team memberships"
-msgstr ""
+msgstr "分配团队成员时出错"
 
 #: lms/djangoapps/teams/static/teams/templates/team-actions.underscore
 msgid "Are you having trouble finding a team to join?"
@@ -7583,11 +7587,11 @@ msgstr "标记考试完成"
 
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "You are taking \"{exam_link}\" as {exam_type}. "
-msgstr ""
+msgstr "您将“{exam_link}”设为{exam_type}。"
 
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "a timed exam"
-msgstr "计时测验"
+msgstr "计时考试"
 
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "The timer on the right shows the time remaining in the exam."
@@ -7706,7 +7710,7 @@ msgstr "关于您"
 msgid ""
 "The following information is already a part of your {platform} profile. "
 "We've included it here for your application."
-msgstr ""
+msgstr "以下信息已包含在您的{platform}个人资料中。我们已将其包含在此处供您使用。"
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Email address"
@@ -8395,7 +8399,7 @@ msgstr "如果您尚无账号，请使用以下按钮进行注册。"
 
 #: lms/templates/student_account/login.underscore
 msgid "Use my university info"
-msgstr ""
+msgstr "使用我的组织信息"
 
 #: lms/templates/student_account/login.underscore
 msgid "or sign in with"
@@ -8494,13 +8498,13 @@ msgstr "认证所需"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "Device with Camera"
-msgstr ""
+msgstr "带摄像头的设备"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
 "You need a device that has a webcam. If you receive a browser prompt for "
 "access to your camera, please make sure to click 'Allow'."
-msgstr ""
+msgstr "您需要具有网络摄像头的设备。 如果您收到浏览器访问相机的提示，请确保单击“允许”。"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "Photo Identification"
@@ -8508,7 +8512,7 @@ msgstr "照片识别"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "You need a valid ID that contains your full name and photo."
-msgstr ""
+msgstr "您需要一个有效的ID，其中应包含您的全名和照片。"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -8519,7 +8523,7 @@ msgstr "给自己拍照"
 msgid ""
 "When your face is in position, use the Take Photo button {icon} below to "
 "take your photo."
-msgstr ""
+msgstr "当您的脸处于适当位置时，请使用下面的“拍照”按钮{icon}拍照。"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "To take a successful photo, make sure that:"
@@ -8537,7 +8541,7 @@ msgstr "您的整张脸都在框内。"
 msgid ""
 "To take the photo of your face, click on the camera button {icon}. If you "
 "need to try again, click 'Retake Photo'."
-msgstr ""
+msgstr "要拍摄您的脸部照片，请单击相机按钮{icon}。如果您需要重试，请单击“重新拍摄照片”。"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -8556,7 +8560,7 @@ msgstr "为什么%(platformName)s需要我的照片？"
 msgid ""
 "We use your verification photos to confirm your identity and ensure the "
 "validity of your certificate."
-msgstr ""
+msgstr "我们使用您的验证照片来确认您的身份并确保证书的有效性。"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -8572,7 +8576,7 @@ msgid ""
 "We securely encrypt your photo and send it to our authorization service for "
 "review. Your photo and information are not saved or visible anywhere on "
 "%(platformName)s after the verification process is complete."
-msgstr ""
+msgstr "我们对您的照片进行安全加密，然后将其发送到我们的授权服务以供审核。验证过程完成后，您的照片和信息将不会保存在%(platformName)s，也不可见。"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -8580,7 +8584,7 @@ msgstr ""
 msgid ""
 "What if I can't see the camera image, or if I can't see my photo do "
 "determine which side is visible?"
-msgstr ""
+msgstr "如果我看不到相机的图像，或者我看不到照片，怎么确定哪一侧可见？"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -8592,6 +8596,8 @@ msgid ""
 " (30-45 centimeters) from the camera, with your head centered relative to "
 "the computer screen. "
 msgstr ""
+"您可以在没有帮助的情况下完成图像捕获过程，但是可能需要进行几次提交尝试才能使相机正确定位。"
+"最佳摄像机的位置随每台计算机的不同而不同，但通常，爆头的最佳位置是距摄像机约12-18英寸（30-45厘米），并且头部相对于计算机屏幕居中。"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -8600,14 +8606,14 @@ msgid ""
 "If the photos you submit are rejected, try moving the computer or camera "
 "orientation to change the lighting angle.  The most common reason for "
 "rejection is inability to read the text on the ID card."
-msgstr ""
+msgstr "如果您提交的照片被拒绝，请尝试移动计算机或相机的方向以更改照明角度。拒绝的最常见原因是无法读取ID卡上的文字。"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
 "What if I have difficulty holding my head in position relative to the "
 "camera?"
-msgstr ""
+msgstr "如果我无法将头相对于相机固定在该位置怎么办？"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -8616,7 +8622,7 @@ msgstr ""
 msgid ""
 "If you require assistance with taking either photo for submission, contact "
 "%(platformName)s support for additional suggestions."
-msgstr ""
+msgstr "如果您需要协助拍摄任何一张照片以进行提交，请联系%(platformName)s的支持以获取其他建议。"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -8632,13 +8638,13 @@ msgstr "拍摄您的身份证件"
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid "Use your webcam to take a photo of your ID."
-msgstr ""
+msgstr "使用您的网络摄像头为您的ID拍照。"
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
 "You need an ID with your name and photo. A driver's license, passport, or ID"
 " are all acceptable."
-msgstr ""
+msgstr "您需要一个带有您的姓名和照片的身份证件。可以接受驾驶执照，护照或身份证。"
 
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -8655,19 +8661,19 @@ msgstr "请确保您的身份证件光线充足"
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid "Once in position, use the Take Photo button {icon} to capture your ID"
-msgstr ""
+msgstr "摆好位置后，使用“拍照”按钮{icon}捕获您的身份证件"
 
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Use the Retake Photo button if you are not pleased with your photo"
-msgstr ""
+msgstr "如果您对照片不满意，请使用“重新拍摄照片”按钮"
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
 "As part of the verification process, you take a photo of both your face and "
 "a photo ID. Our authorization service confirms your identity by comparing "
 "the photo you take with the photo on your ID."
-msgstr ""
+msgstr "在验证过程中，您需要拍一张自己脸部的照片和一张带有照片的省份证件的照片。我们的授权服务通过将您拍摄的照片与身份证件上的照片进行比较来确认您的身份。"
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
@@ -8677,12 +8683,12 @@ msgid ""
 "but generally, the best position for a photo of an ID card is 8-12 inches "
 "(20-30 centimeters) from the camera, with the ID card centered relative to "
 "the camera. "
-msgstr ""
+msgstr "您可以在没有帮助的情况下完成图像捕获过程，但是可能需要进行几次提交尝试才能使相机正确定位。最佳照相机的位置随每台计算机的不同而不同，但通常，身份证件照片的最佳位置是距照相机8-12英寸（20-30厘米），并且身份证件相对于照相机居中。"
 
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
 "What if I have difficulty holding my ID in position relative to the camera?"
-msgstr ""
+msgstr "如果我在将身份证件相对于相机固定时遇到困难怎么办？"
 
 #: lms/templates/verify_student/image_input.underscore
 msgid "Preview of uploaded image"
@@ -8709,7 +8715,7 @@ msgstr "请确保您的整张脸都在框内"
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
 "Once in position, use the Take Photo button {icon} to capture your photo"
-msgstr ""
+msgstr "摆好位置后，使用“拍照”按钮{icon}捕获照片"
 
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Can we match the photo you took with the one on your ID?"
@@ -8766,7 +8772,7 @@ msgstr "驾照、护照或者其他由政府签发的带有您姓名和照片的
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Webcam"
-msgstr "摄像头"
+msgstr "网络摄像头"
 
 #: lms/templates/verify_student/make_payment_step.underscore
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
@@ -9089,14 +9095,14 @@ msgstr ""
 msgid ""
 "Create a {link_start}Mozilla Backpack{link_end} account, or log in to your "
 "existing account"
-msgstr ""
+msgstr "创建一个{link_start}Mozilla Backpack{link_end}帐户，或登录到您现有的帐户"
 
 #: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
 msgid ""
 "{download_link_start}Download this image (right-click or option-click, save "
 "as){link_end} and then {upload_link_start}upload{link_end} it to your "
 "backpack."
-msgstr ""
+msgstr "{download_link_start}下载此图片（右键单击或单击选项，另存为）{link_end}，然后{upload_link_start}上传{link_end}到您的 Backpack。"
 
 #: cms/templates/js/access-editor.underscore
 msgid "Limit Access"
@@ -9258,7 +9264,7 @@ msgstr "ID"
 #: cms/templates/js/certificate-details.underscore
 #: cms/templates/js/certificate-editor.underscore
 msgid "Certificate Details"
-msgstr "认证细则"
+msgstr "证书细则"
 
 #: cms/templates/js/certificate-details.underscore
 #: cms/templates/js/certificate-editor.underscore
@@ -9293,19 +9299,19 @@ msgstr "我们强烈建议您包含四个及更少的签署方。如果您包含
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Certificate Information"
-msgstr "认证信息"
+msgstr "证书信息"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Certificate Name"
-msgstr "认证名称"
+msgstr "证书名称"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Name of the certificate"
-msgstr "认证名称"
+msgstr "证书名称"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Description of the certificate"
-msgstr "认证描述"
+msgstr "证书描述"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Course title"
@@ -9434,7 +9440,7 @@ msgstr "如果您不选择“%(hide_label)s”，那么学员可看到本小节�
 
 #: cms/templates/js/copy-clipboard-button.underscore
 msgid "Copy Component Location"
-msgstr ""
+msgstr "复制组件位置"
 
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Weekly Highlight Emails"
@@ -9855,7 +9861,7 @@ msgstr "添加一章"
 
 #: cms/templates/js/edit-title-button.underscore
 msgid "Edit Title"
-msgstr ""
+msgstr "编辑标题"
 
 #: cms/templates/js/grading-editor.underscore
 msgid "Grading"
@@ -10171,7 +10177,7 @@ msgstr "员工与学员"
 #: cms/templates/js/publish-xblock.underscore
 #: cms/templates/js/staff-lock-editor.underscore
 msgid "Hide from learners"
-msgstr "对学习这隐藏"
+msgstr "对学习者隐藏"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Note: Do not hide graded assignments after they have been released."
@@ -10587,7 +10593,7 @@ msgid ""
 "another version. These URLs cannot be YouTube URLs. The first listed video "
 "that's compatible with the student's computer will play."
 msgstr ""
-"要确保所有学生都能看到视频，我们建议您同时提供.mp4版本和.webm版本的视频。点击下方按钮添加另一个版本的URL（请勿使用YouTube的URL），学生将会看到列表中第一个与其计算机兼容的视频。"
+"要确保所有学生都能看到视频，我们建议您同时提供.mp4版本和.webm版本的视频。点击下方按钮添加另一个版本的URL（请勿使用视频托管网站的URL），学生将会看到列表中第一个与其计算机兼容的视频。"
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore
 msgid "Default Timed Transcript"
@@ -10655,7 +10661,7 @@ msgstr "下载字幕进行编辑"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
 msgid "No EdX Timed Transcript"
-msgstr "没有 EdX 字幕"
+msgstr "没有字幕"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
 msgid ""
@@ -10663,12 +10669,12 @@ msgid ""
 " transcript on YouTube. You can import the YouTube transcript or upload your"
 " own .srt transcript file."
 msgstr ""
-"EdX 在 Studio 中没有该视频的字幕，但是我们在 YouTube 中找到了一个字幕。您可以导入 YouTube 字幕或者上传您自己的 .srt "
+"在 Studio 中没有该视频的字幕，但是我们在视频托管网站中找到了一个字幕。您可以导入视频托管网站字幕或者上传您自己的 .srt "
 "字幕文件。"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
 msgid "Import YouTube Transcript"
-msgstr "导入 YouTube 字幕"
+msgstr "导入视频托管网站字幕"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore
 msgid "No Timed Transcript"
@@ -10678,21 +10684,21 @@ msgstr "没有字幕"
 msgid ""
 "EdX doesn\\'t have a timed transcript for this video. Please upload an .srt "
 "file."
-msgstr "EdX 没有该视频的字幕。请上传一个 .srt 文件。"
+msgstr "没有该视频的字幕。请上传一个 .srt 文件。"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
 msgid ""
 "The timed transcript for this video on edX is out of date, but YouTube has a"
 " current timed transcript for this video."
-msgstr "EdX 上该视频的字幕已过期，但 YouTube 上有该视频字幕的当前版本。"
+msgstr "该视频的字幕已过期，但视频托管网站上有该视频字幕的当前版本。"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
 msgid "Do you want to replace the edX transcript with the YouTube transcript?"
-msgstr "您希望用 YouTube 字幕替换 edX 字幕吗？"
+msgstr "您希望用视频托管网站上的字幕替换字幕吗？"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore
 msgid "Yes, replace the edX transcript with the YouTube transcript"
-msgstr "是的，用 YouTube 字幕替换 edX 字幕。"
+msgstr "是的，用视频托管网站上的字幕替换字幕。"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
 msgid "Timed Transcript Uploaded Successfully"
@@ -10703,7 +10709,7 @@ msgid ""
 "EdX has a timed transcript for this video. If you want to replace this "
 "transcript, upload a new .srt transcript file. If you want to edit this "
 "transcript, you can download, edit, and re-upload the existing transcript."
-msgstr "EdX 有该视频的字幕。如果您希望替换该字幕，请上传一个新的 .srt 字幕文件。如果您希望编辑该字幕，可以下载编辑后重新上传。"
+msgstr "有该视频的字幕。如果您希望替换该字幕，请上传一个新的 .srt 字幕文件。如果您希望编辑该字幕，可以下载编辑后重新上传。"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Confirm Timed Transcript"
