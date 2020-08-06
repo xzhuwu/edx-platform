@@ -466,25 +466,42 @@
   }
 }
 
-// certificate - base + honor
+// certificate - distinguished + honor
 .layout-accomplishment.certificate-honor {
   .introduction {
-    margin-bottom: 0;
+    margin-bottom: spacing-vertical(base);
   }
 
   .accomplishment-main {
-    background: palette(grayscale, x-back);
+    background: palette(primary, back);
   }
 
   .accomplishment-rendering {
-    .accomplishment-type {
-      margin-top: 0;
+    background: $white url('../images/bg-honor.png') center no-repeat;
+    background-size: 65%;
+
+    .deco-corner-tl {
+      @include triangle(20px, $cert-distinguished-color, up-right);
     }
 
-    // hide the fancy
-    .accomplishment-signatories .signatory-signature,
-    .accomplishment-type-symbol {
-      display: none;
+    .deco-corner-tr {
+      @include triangle(20px, $cert-distinguished-color, up-left);
+    }
+
+    .deco-corner-bl {
+      @include triangle(20px, $cert-distinguished-color, down-right);
+    }
+
+    .deco-corner-br {
+      @include triangle(20px, $cert-distinguished-color, down-left);
+    }
+  }
+
+  .accomplishment-rendering {
+    border-color: $cert-distinguished-color;
+
+    .accomplishment-type-label {
+      color: $cert-distinguished-color;
     }
   }
 }
