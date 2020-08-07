@@ -478,7 +478,8 @@
 
   .accomplishment-rendering {
     background: $white url('../images/bg-honor.png') center no-repeat;
-    background-size: 65%;
+    background-size: cover;
+    z-index: -1;
 
     .deco-corner-tl {
       @include triangle(20px, $cert-distinguished-color, up-right);
