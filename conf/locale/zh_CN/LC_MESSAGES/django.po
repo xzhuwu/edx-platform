@@ -5472,7 +5472,7 @@ msgstr "一张 {cert_type} 证书证明学习课程高水準的成果，并包�
 #: lms/djangoapps/certificates/views/webview.py
 #, python-brace-format
 msgid "{month} {day}, {year}"
-msgstr "{year} {month} {day}"
+msgstr "{year}年{month}{day}日"
 
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views/webview.py
