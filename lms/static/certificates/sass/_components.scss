@@ -503,7 +503,7 @@
 
     .accomplishment-type-label {
       color: $cert-distinguished-color;
-      margin-top: rem(1);
+      margin-top: 50px;
     }
 
     // signatories
@@ -511,6 +511,10 @@
       margin-bottom: 0;
       border-bottom: 0;
       padding-bottom: 0;
+    }
+
+    .accomplishment-type-symbol {
+      visibility: hidden;
     }
   }
 }
