@@ -478,7 +478,7 @@
 
   .accomplishment-rendering {
     background: $white url('../images/bg-honor.png') center no-repeat;
-    background-size: 100%;
+    background-size: cover;
 
     .deco-corner-tl {
       @include triangle(20px, $cert-distinguished-color, up-right);
@@ -498,10 +498,19 @@
   }
 
   .accomplishment-rendering {
+    border: 0;
     border-color: $cert-distinguished-color;
 
     .accomplishment-type-label {
       color: $cert-distinguished-color;
+      margin-top: rem(1);
+    }
+
+    // signatories
+    .accomplishment-signatories {
+      margin-bottom: 0;
+      border-bottom: 0;
+      padding-bottom: 0;
     }
   }
 }

@@ -5499,7 +5499,7 @@ msgstr "{partner_short_name} {course_number} 修课证明 | {platform_name}"
 msgid ""
 "successfully completed, received a passing grade, and was awarded this "
 "{platform_name} {certificate_type} Certificate of Completion in "
-msgstr "完成课程，成绩合格，并荣获{platform_name}颁发的{certificate_type}证书"
+msgstr "已完成以下课程，成绩合格，并荣获{platform_name}颁发的{certificate_type}证书"
 
 #. Translators: This text describes the purpose (and therefore, value) of a
 #. course certificate
